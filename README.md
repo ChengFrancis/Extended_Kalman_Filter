@@ -33,7 +33,11 @@ In this simulation, the robot moves in a circular path with a random angular vel
    - The simulation will produce a plot showing the estimated path of the robot using the EKF.
    - The center of the circular trajectory is also marked on the plot.
 
-## Customization
+## Notes
 
 - **Simulation Parameters**: You can modify the simulation parameters (e.g., total simulation time, measurement noise) directly in `main.m`.
 - **Filter Tuning**: Adjust the process and measurement noise covariances in `Extended_Kalman_Filter.m` to see how they affect the filter's performance.
+
+## License
+
+This project is open-source and available under the MIT License.
